@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zhenyamint/ontologies/2023/8/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zhenyamint/ontologies/2023/8/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/zhenyamint/ontologies/2023/8/untitled-ontology-4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-4" IRI="http://www.semanticweb.org/zhenyamint/ontologies/2023/8/untitled-ontology-4#"/>
+    <Declaration>
+        <Class IRI="#Crew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destroyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gunner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Havy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rank_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сamouflage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сommander"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Commander"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Driver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Gunner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_Engine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_Gun"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_nation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_staff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Have_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Mod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Rank"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Atack_Spead"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Count_crew"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Damage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adolf_Heinrich_Walther"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Any_people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#August_Steffen_Philipp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Autumn_Camo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bertold_Stephan_Rudolph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D-54TS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dennis_Nikolas_Manfred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E_100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elvin_Kristian_Ethan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eric_Lionel_Alan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Florian_Andreas_Carl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frank_Joseph_Nicholas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GERMANY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George_Peter_Donald"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Herbaceous_Camo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IS-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jacob_Dominik_Gabriel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jacob_Howard_Kristopher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jagdpanther"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joseph_Oliver_Stephen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KV-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kevin_Holger_Michael"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Klaus_Lucas_Christian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leopard_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linus_Joseph_Bastian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M1A1C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M4_Sherman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MTU_MB_838_CaM-500"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panzer_IV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peter_Simon_Steven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Philip_Harry_Richard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robert_Benjamin_Heinrich"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ronald_Randolph_Harry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rudolph_Harry_Stefan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SSSR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Summer_Camo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T-34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T-62A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#T110E5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiger_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V2-IS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viktor_Benjamin_Jan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Winter_Camo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolfgang_Artur_Heinz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolfgang_Karsten_Helmut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolfgang_Viktor_Michael"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#junior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#middle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#senior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Александрова_Ариана_Данииловна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Алексеев_Александр_Богданович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Григорьев_Андрей_Семёнович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дементьева_Милана_Владиславовна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ефремов_Никита_Ярославович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ефремова_Анна_Игоревна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Жуков_Владислав_Олегович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Иванов_Александр_Сергеевич"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Иванов_Артур_Львович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Иванов_Георгий_Артёмович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Исаева_Валерия_Тимофеевна"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Леонтьев_Максим_Всеволодович"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#15_cm_Kw.K._L/38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#85_mm"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Destroyer"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">100</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Driver"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Crew"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Rank"/>
+                <NamedIndividual IRI="#junior"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gunner"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Crew"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Rank"/>
+                <NamedIndividual IRI="#middle"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Havy"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1999</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Medium"/>
+        <ObjectIntersectionOf>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#HP"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1999</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Сommander"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Crew"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Rank"/>
+                <NamedIndividual IRI="#senior"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Destroyer"/>
+        <Class IRI="#Tank_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engine"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gun"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havy"/>
+        <Class IRI="#Tank_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium"/>
+        <Class IRI="#Tank_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сamouflage"/>
+        <Class IRI="#Modification"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Adolf_Heinrich_Walther"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#August_Steffen_Philipp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сamouflage"/>
+        <NamedIndividual IRI="#Autumn_Camo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Bertold_Stephan_Rudolph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gun"/>
+        <NamedIndividual IRI="#D-54TS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Dennis_Nikolas_Manfred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#E_100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Elvin_Kristian_Ethan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Eric_Lionel_Alan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Florian_Andreas_Carl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Frank_Joseph_Nicholas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nation"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#George_Peter_Donald"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сamouflage"/>
+        <NamedIndividual IRI="#Herbaceous_Camo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#IS-3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Jacob_Dominik_Gabriel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Jacob_Howard_Kristopher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Joseph_Oliver_Stephen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#KV-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Kevin_Holger_Michael"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Klaus_Lucas_Christian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Linus_Joseph_Bastian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gun"/>
+        <NamedIndividual IRI="#M1A1C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#MTU_MB_838_CaM-500"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Peter_Simon_Steven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Philip_Harry_Richard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Robert_Benjamin_Heinrich"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Ronald_Randolph_Harry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Rudolph_Harry_Stefan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nation"/>
+        <NamedIndividual IRI="#SSSR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сamouflage"/>
+        <NamedIndividual IRI="#Summer_Camo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#T-34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#T-62A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#T110E5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tank"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nation"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#V2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#V2-IS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Viktor_Benjamin_Jan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Сamouflage"/>
+        <NamedIndividual IRI="#Winter_Camo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Wolfgang_Artur_Heinz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Wolfgang_Karsten_Helmut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Wolfgang_Viktor_Michael"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rank_type"/>
+        <NamedIndividual IRI="#junior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rank_type"/>
+        <NamedIndividual IRI="#middle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rank_type"/>
+        <NamedIndividual IRI="#senior"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Александрова_Ариана_Данииловна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Алексеев_Александр_Богданович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Григорьев_Андрей_Семёнович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Дементьева_Милана_Владиславовна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Ефремов_Никита_Ярославович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Ефремова_Анна_Игоревна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Жуков_Владислав_Олегович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Иванов_Александр_Сергеевич"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Иванов_Артур_Львович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Иванов_Георгий_Артёмович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Исаева_Валерия_Тимофеевна"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crew"/>
+        <NamedIndividual IRI="#Леонтьев_Максим_Всеволодович"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gun"/>
+        <NamedIndividual IRI="#15_cm_Kw.K._L/38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gun"/>
+        <NamedIndividual IRI="#85_mm"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#Dennis_Nikolas_Manfred"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#Adolf_Heinrich_Walther"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#August_Steffen_Philipp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#15_cm_Kw.K._L/38"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#E_100"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#Леонтьев_Максим_Всеволодович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#Исаева_Валерия_Тимофеевна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#Иванов_Артур_Львович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Engine"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#V2-IS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#SSSR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#Elvin_Kristian_Ethan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#Bertold_Stephan_Rudolph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#Klaus_Lucas_Christian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#Winter_Camo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#Ефремова_Анна_Игоревна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#Иванов_Георгий_Артёмович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#Жуков_Владислав_Олегович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#SSSR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Mod"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <NamedIndividual IRI="#Herbaceous_Camo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#Rudolph_Harry_Stefan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#Robert_Benjamin_Heinrich"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#Viktor_Benjamin_Jan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Engine"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#MTU_MB_838_CaM-500"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#Florian_Andreas_Carl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#George_Peter_Donald"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#Frank_Joseph_Nicholas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#M1A1C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#Eric_Lionel_Alan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#Ronald_Randolph_Harry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#Joseph_Oliver_Stephen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Engine"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#V2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <NamedIndividual IRI="#Jacob_Dominik_Gabriel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <NamedIndividual IRI="#Kevin_Holger_Michael"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <NamedIndividual IRI="#Wolfgang_Karsten_Helmut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#Алексеев_Александр_Богданович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#Ефремов_Никита_Ярославович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#Александрова_Ариана_Данииловна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#85_mm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#SSSR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#T-34"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#Дементьева_Милана_Владиславовна"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#Иванов_Александр_Сергеевич"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#Григорьев_Андрей_Семёнович"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#D-54TS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#SSSR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#Jacob_Howard_Kristopher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#Philip_Harry_Richard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#Peter_Simon_Steven"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#Autumn_Camo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#USA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Commander"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#Wolfgang_Viktor_Michael"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Driver"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#Linus_Joseph_Bastian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Gunner"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#Wolfgang_Artur_Heinz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#Winter_Camo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_nation"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#GERMANY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Have_staff"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <NamedIndividual IRI="#Any_people"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#E_100"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#E_100"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#E_100"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#E_100"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#IS-3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#Jagdpanther"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#KV-1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">360</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#Leopard_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">550</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#M18_Hellcat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Atack_Spead"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#M4_Sherman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1050</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">230</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#Panzer_IV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#T-34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#T-34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">230</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#T-34"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1100</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">320</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#T-62A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#T110E5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2500</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Count_crew"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Damage"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">330</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HP"/>
+        <NamedIndividual IRI="#Tiger_II"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2200</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Commander"/>
+        <ObjectProperty IRI="#Have_staff"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Driver"/>
+        <ObjectProperty IRI="#Have_staff"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Gunner"/>
+        <ObjectProperty IRI="#Have_staff"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Commander"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Driver"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Gunner"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Have_Engine"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Have_nation"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Have_type"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Mod"/>
+        <Class IRI="#Tank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Rank"/>
+        <Class IRI="#Crew"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Commander"/>
+        <Class IRI="#Сommander"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Driver"/>
+        <Class IRI="#Driver"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Gunner"/>
+        <Class IRI="#Gunner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Have_Camouflage"/>
+        <Class IRI="#Сamouflage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Have_Engine"/>
+        <Class IRI="#Engine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Have_Gun"/>
+        <Class IRI="#Gun"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Have_nation"/>
+        <Class IRI="#Nation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Mod"/>
+        <Class IRI="#Modification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Rank"/>
+        <Class IRI="#Rank_type"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Atack_Spead"/>
+        <Class IRI="#Tank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Count_crew"/>
+        <Class IRI="#Tank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Damage"/>
+        <Class IRI="#Tank"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HP"/>
+        <Class IRI="#Tank"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Atack_Spead"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Count_crew"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Damage"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HP"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
